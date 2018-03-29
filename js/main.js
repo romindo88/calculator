@@ -12,6 +12,7 @@ for (var i = 0; i < filepaths.length; i++) {
 
 //com.sapui.loadfiles(); Envoyé vers le sapui-core
 
+var respJson;
 function makeAjaxCall(url, methodType){
    var xhr = new XMLHttpRequest();
    xhr.open(methodType, url, true);
@@ -34,3 +35,4 @@ function makeAjaxCall(url, methodType){
 // git hub url to get btford details
 var URL = "https://api.github.com/users/btford";
 makeAjaxCall(URL, "GET");
+console.log(respJson);
