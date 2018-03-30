@@ -1,0 +1,51 @@
+{
+    "application": "calculator",
+    "version": 13,
+    "pad": {
+        "default": {
+            "color": "#F0F0F0",
+            "event": "click",
+            "cursor": "pointer"
+        },
+        "ops": {
+            "add": {
+                "color": "#F0F0F0",
+                "event": "click"
+            },
+            "sub": {
+                "color": "#F0F0F0",
+                "event": "click"
+            },
+            "div": {
+                "color": "#F0F0F0",
+                "event": "click"
+            },
+            "multi": {
+                "color": "#F0F0F0",
+                "event": "click"
+            },
+            "result": {
+                "color": "#F0F0F0",
+                "event": "click"
+            }
+        },
+        "digits": {
+            "memshow": {
+                "color": "#FF0",
+                "event": "click"
+            },
+            "clear": {
+                "color": "#FF0",
+                "event": "click"
+            },
+            "mplus": {
+                "color": "#FF0",
+                "event": "click"
+            },
+            "mminus": {
+                "color": "#FF0",
+                "event": "click"
+            }
+        }
+    }
+}
