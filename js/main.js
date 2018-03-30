@@ -12,5 +12,5 @@ for (var i = 0; i < filepaths.length; i++) {
 
 //com.sapui.loadfiles(); Envoyé vers le sapui-core
 
-var URL = "http://localhost/calculator/js/conf/manifest.json";
+var URL = "http://localhost/calculator/js/conf/conf.json";
 $.makeAjaxCall(URL, "GET");
