@@ -2,4 +2,4 @@
 com=com||{}
 com["sapui"]=com["sapui"]||{};
 com.sapui.calculator=com.sapui.calculator||{};
-com.sapui.calculator.events={}
+var $events=com.sapui.calculator.events={}

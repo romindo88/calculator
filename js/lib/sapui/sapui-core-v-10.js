@@ -42,8 +42,14 @@ for (var i = 0; i < structure.length; i++) {
 
 		}
 }
+
+$.find= function(selector){
+	return document.querySelectorAll(selector)
+}
+
 $.conf= function(config){
-	console.log(config.application)
+	document.title = config.application+"["+config.version+"]";
+	$events.binding(config)
 }
 $.makeAjaxCall =function (url, methodType){
    var xhr = new XMLHttpRequest();

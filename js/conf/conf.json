@@ -1,49 +1,49 @@
 {
-    "application": "calculator",
-    "version": 13,
+    "application": "Test Title",
+    "version": 878,
     "pad": {
         "default": {
-            "color": "#F0F0F0",
+            "color": "white",
             "event": "click",
             "cursor": "pointer"
         },     
         "ops": {
             "add": {
-                "color": "#F0F0F0",
+                "color": "blue",
                 "event": "click"
             },
             "sub": {
-                "color": "#F0F0F0",
+                "color": "white",
                 "event": "click"
             },
             "div": {
-                "color": "#F0F0F0",
+                "color": "pink",
                 "event": "click"
             },
             "multi": {
-                "color": "#F0F0F0",
+                "color": "aqua",
                 "event": "click"
             },
             "result": {
-                "color": "#F0F0F0",
+                "color": "black",
                 "event": "click"
             }
         },
         "digits": {
             "memshow": {
-                "color": "#FF0",
+                "color": "blue",
                 "event": "click"
             },
             "clear": {
-                "color": "#FF0",
+                "color": "green",
                 "event": "click"
             },
             "mplus": {
-                "color": "#FF0",
+                "color": "grey",
                 "event": "click"
             },
             "mminus": {
-                "color": "#FF0",
+                "color": "yellow",
                 "event": "click"
             }
         }
